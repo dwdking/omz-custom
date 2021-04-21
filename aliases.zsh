@@ -1,5 +1,5 @@
 alias cp='cp -i -v'
-alias mv='mv -i -'
+alias mv='mv -i -v'
 alias mkdir='mkdir -p -v'
 alias less='less -FSRXc'
 cd() { builtin cd "$@"; ll; }               # Always list directory contents upon 'cd'
